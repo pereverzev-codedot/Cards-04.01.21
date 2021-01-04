@@ -78,9 +78,6 @@ body {
 
 }
 
-
-.back {}
-
-input:checked+.card-wrapper {
+.card-wrapper-rotate {
     transform: translateZ(0px) rotateX(180deg);
 }
