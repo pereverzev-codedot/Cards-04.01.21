@@ -39,6 +39,7 @@ paralaxWrap.forEach((element) => {
     const ParalaxStop = () => {
         if (card.classList.contains("card-wrapper-rotate")) {
             card.style.transform = `rotateY(0deg) rotateX(180deg)`
+            cardBackBG.style.transform = `translate(0px,0px) scale(1.4)`
         } else {
             card.style.transform = `rotateY(0deg) rotateX(0deg)`
             cardBg.style.transform = `translate(0px,0px)  scale(1.4) rotateX(0deg)`
