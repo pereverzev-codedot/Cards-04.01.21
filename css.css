@@ -60,13 +60,13 @@ body {
 }
 
 .paralax-wrap-back {
-    transform: rotateX(180deg);
-    pointer-events: none;
+    transform: rotateX(-180deg);
 }
 
 
 .paralax-wrap-hide {
     display: none;
+    pointer-events: none;
 }
 
 .paralax-img {
@@ -78,9 +78,6 @@ body {
     filter: blur(1px);
 }
 
-.paralax-img-back {
-    pointer-events: none;
-}
 
 
 
@@ -135,5 +132,3 @@ body {
     align-items: center;
     pointer-events: none;
 }
-
-.card-wrapper-rotate {}
